@@ -2,7 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+mark {
+  background-color: papayawhip;
+  border-radius: 10%;
+  padding: 1px 2px;
+  
+}
+
+code {
+  color: black;
+  background-color: gainsboro;
+  border-radius: 3%;
+  padding: 1px 2px;
+}
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +38,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
